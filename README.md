@@ -8,6 +8,7 @@ A robust starter configuration for Flutter applications designed to be scalable,
 - **Light & Dark Themes**: Fully customizable styles for both light and dark modes.
 - **Reusable Helper Functions**: Includes common utilities such as data validation, formatting, API requests, and more.
 - **Modular Setup**: Easy to extend with more features and helpers as your project grows.
+- **.gitignore**: The .gitignore file is configured for all types of projects.
 
 ## Folder Structure
 
