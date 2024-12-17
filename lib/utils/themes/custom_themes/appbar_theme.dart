@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class KAppBarTheme {
-  KAppBarTheme._();
+class BKAppBarTheme {
+  BKAppBarTheme._();
 
   static const lightAppBarTheme = AppBarTheme(
     elevation: 0,
@@ -14,7 +14,7 @@ class KAppBarTheme {
     titleTextStyle: TextStyle(
         fontSize: 20, fontWeight: FontWeight.w600, color: Colors.black),
   );
-  static const darkAppBarTheme = AppBarTheme(
+  static const darBKAppBarTheme = AppBarTheme(
     elevation: 0,
     centerTitle: false,
     scrolledUnderElevation: 0,

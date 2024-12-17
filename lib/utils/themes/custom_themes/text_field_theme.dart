@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class KTextFormFieldTheme {
-  KTextFormFieldTheme._();
+class BKTextFormFieldTheme {
+  BKTextFormFieldTheme._();
 
   static InputDecorationTheme lightInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 3,
@@ -11,7 +11,7 @@ class KTextFormFieldTheme {
     hintStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
     floatingLabelStyle:
-        const TextStyle().copyWith(color: Colors.black.withOpacity(1.8)),
+        const TextStyle().copyWith(color: Colors.black.withOpacity(1.0)),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(15),
       borderSide: const BorderSide(width: 1, color: Colors.grey),
@@ -42,7 +42,7 @@ class KTextFormFieldTheme {
     hintStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.white),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
     floatingLabelStyle:
-        const TextStyle().copyWith(color: Colors.white.withOpacity(1.8)),
+        const TextStyle().copyWith(color: Colors.white.withOpacity(1.0)),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(15),
       borderSide: const BorderSide(width: 1, color: Colors.grey),

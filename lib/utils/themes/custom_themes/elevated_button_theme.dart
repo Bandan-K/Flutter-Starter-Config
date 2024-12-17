@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class KElevatedButtonTheme {
-  KElevatedButtonTheme._();
+class BKElevatedButtonTheme {
+  BKElevatedButtonTheme._();
 
   static final lightElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
@@ -17,7 +17,7 @@ class KElevatedButtonTheme {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
     ),
   );
-  static final darkElevatedButtonTheme = ElevatedButtonThemeData(
+  static final darBKElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,

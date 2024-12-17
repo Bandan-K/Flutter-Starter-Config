@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class KBottomSheetTheme {
-  KBottomSheetTheme._();
+class BKBottomSheetTheme {
+  BKBottomSheetTheme._();
 
   static BottomSheetThemeData lightBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
@@ -10,7 +10,7 @@ class KBottomSheetTheme {
     constraints: const BoxConstraints(minWidth: double.infinity),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   );
-  static BottomSheetThemeData darkBottomSheetTheme = BottomSheetThemeData(
+  static BottomSheetThemeData darBKBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
     backgroundColor: Colors.black,
     modalBackgroundColor: Colors.black,

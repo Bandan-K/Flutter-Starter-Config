@@ -1,5 +1,5 @@
-class KSizes {
-  KSizes._();
+class BKSizes {
+  BKSizes._();
 
   // padding and margin sizes
 

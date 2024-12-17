@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class KTextTheme {
-  KTextTheme._();
+class BKTextTheme {
+  BKTextTheme._();
 
   static TextTheme lightTextTheme = TextTheme(
     headlineLarge: const TextStyle().copyWith(
@@ -41,7 +41,7 @@ class KTextTheme {
         color: Colors.black.withOpacity(0.5)),
   );
 
-  static TextTheme darkTextTheme = TextTheme(
+  static TextTheme darBKTextTheme = TextTheme(
     headlineLarge: const TextStyle().copyWith(
         fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.white),
     headlineMedium: const TextStyle().copyWith(

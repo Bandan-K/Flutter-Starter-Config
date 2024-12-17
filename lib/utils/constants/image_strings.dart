@@ -1,5 +1,5 @@
-class KImageStrings {
-  KImageStrings._();
+class BKImageStrings {
+  BKImageStrings._();
 
 //App Logo
   static const String shopLogo = "assets/logos/ShopLogo.jpg";

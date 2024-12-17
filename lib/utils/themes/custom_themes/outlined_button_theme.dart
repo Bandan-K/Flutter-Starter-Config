@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class KOutLinedButtonTheme {
-  KOutLinedButtonTheme._();
+class BKOutLinedButtonTheme {
+  BKOutLinedButtonTheme._();
 
   static final lightOutLinedButtonTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
@@ -14,7 +14,7 @@ class KOutLinedButtonTheme {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
     ),
   );
-  static final darkOutLinedButtonTheme = OutlinedButtonThemeData(
+  static final darBKOutLinedButtonTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
       foregroundColor: Colors.white,
       side: const BorderSide(color: Colors.blueAccent),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class KColors {
-  KColors._();
+class BKColors {
+  BKColors._();
 
   // App basic Colors
   static const Color primary = Color(0xFF4b68ff);
@@ -11,13 +11,13 @@ class KColors {
   //Gradiant Colors
 
   static const Gradient linearGradiant = LinearGradient(
-    begin: Alignment(0, 0),
-    end:Alignment(0.707, -0.707),
-    colors: [
-      Color(0xFFFF9a9e),
-      Color(0xFFFad0c4),
-      Color(0xFFFad0c0),
-  ]);
+      begin: Alignment(0, 0),
+      end: Alignment(0.707, -0.707),
+      colors: [
+        Color(0xFFFF9a9e),
+        Color(0xFFFad0c4),
+        Color(0xFFFad0c0),
+      ]);
 
   //Text Colors
   static const Color textPrimary = Color(0xFF333333);
@@ -58,5 +58,4 @@ class KColors {
   static const Color softGrey = Color(0xFFF4F4F4);
   static const Color lightGrey = Color(0xFFD9F9F9);
   static const Color white = Color(0xFFFFFFFF);
-
 }

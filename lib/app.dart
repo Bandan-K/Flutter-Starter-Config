@@ -8,8 +8,14 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.system,
-      theme: KAppTheme.lightTheme,
-      darkTheme: KAppTheme.darkTheme,
+      theme: BKAppTheme.lightTheme,
+      darkTheme: BKAppTheme.darkTheme,
+      home: Scaffold(
+        appBar: AppBar(title: Text("Helper Project"),),
+        body: Center(
+          child: Text("Welcome to the Helper Project"),
+        ),
+      ),
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:intl/intl.dart';
 
-class KFormatter {
+class BKFormatter {
   static String fomratDate(DateTime? date) {
     date ??= DateTime.now();
     return DateFormat('dd-MMM-yyyy').format(date);
@@ -18,7 +18,4 @@ class KFormatter {
     }
     return phoneNumber;
   }
-
-
-  
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
-class KHelperFunctions {
+class BKHelperFunctions {
   static Color? getColor(String value) {
     value = value.toLowerCase();
 
@@ -92,7 +92,7 @@ class KHelperFunctions {
     return DateFormat(format).format(data);
   }
 
-  static List<K> removeDuplicates<K>(List<K> list) {
+  static List<BK> removeDuplicates<BK>(List<BK> list) {
     return list.toSet().toList();
   }
 

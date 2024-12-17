@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-class KHttpHelper {
+class BKHttpHelper {
   static const String baseUrl = "";
 
   static Future<Map<String, dynamic>> get(String endpoint) async {

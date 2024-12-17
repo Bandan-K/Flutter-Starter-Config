@@ -9,38 +9,38 @@ import 'package:flutter_e_commers/utils/themes/custom_themes/outlined_button_the
 import 'package:flutter_e_commers/utils/themes/custom_themes/text_field_theme.dart';
 import 'package:flutter_e_commers/utils/themes/custom_themes/text_theme.dart';
 
-class KAppTheme {
-  KAppTheme._();
+class BKAppTheme {
+  BKAppTheme._();
 
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
     fontFamily: "Poppins",
     brightness: Brightness.light,
-    primaryColor: KColors.primary,
-    scaffoldBackgroundColor: KColors.white,
-    textTheme: KTextTheme.lightTextTheme,
-    appBarTheme: KAppBarTheme.lightAppBarTheme,
-    bottomSheetTheme: KBottomSheetTheme.lightBottomSheetTheme,
-    checkboxTheme: KCheckBoxTheme.lightCheckBoxTheme,
-    chipTheme: KChipTheme.lightChipTheme,
-    elevatedButtonTheme: KElevatedButtonTheme.lightElevatedButtonTheme,
-    outlinedButtonTheme: KOutLinedButtonTheme.lightOutLinedButtonTheme,
-    inputDecorationTheme: KTextFormFieldTheme.lightInputDecorationTheme,
+    primaryColor: BKColors.primary,
+    scaffoldBackgroundColor: BKColors.white,
+    textTheme: BKTextTheme.lightTextTheme,
+    appBarTheme: BKAppBarTheme.lightAppBarTheme,
+    bottomSheetTheme: BKBottomSheetTheme.lightBottomSheetTheme,
+    checkboxTheme: BKCheckBoxTheme.lightCheckBoxTheme,
+    chipTheme: BKChipTheme.lightChipTheme,
+    elevatedButtonTheme: BKElevatedButtonTheme.lightElevatedButtonTheme,
+    outlinedButtonTheme: BKOutLinedButtonTheme.lightOutLinedButtonTheme,
+    inputDecorationTheme: BKTextFormFieldTheme.lightInputDecorationTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     fontFamily: "Poppins",
     brightness: Brightness.dark,
-    primaryColor: KColors.primary,
-    scaffoldBackgroundColor: KColors.black,
-    textTheme: KTextTheme.darkTextTheme,
-    appBarTheme: KAppBarTheme.darkAppBarTheme,
-    bottomSheetTheme: KBottomSheetTheme.darkBottomSheetTheme,
-    checkboxTheme: KCheckBoxTheme.darkCheckBoxTheme,
-    chipTheme: KChipTheme.lightChipTheme,
-    elevatedButtonTheme: KElevatedButtonTheme.darkElevatedButtonTheme,
-    outlinedButtonTheme: KOutLinedButtonTheme.darkOutLinedButtonTheme,
-    inputDecorationTheme: KTextFormFieldTheme.darkInputDecorationTheme,
+    primaryColor: BKColors.primary,
+    scaffoldBackgroundColor: BKColors.black,
+    textTheme: BKTextTheme.darBKTextTheme,
+    appBarTheme: BKAppBarTheme.darBKAppBarTheme,
+    bottomSheetTheme: BKBottomSheetTheme.darBKBottomSheetTheme,
+    checkboxTheme: BKCheckBoxTheme.darBKCheckBoxTheme,
+    chipTheme: BKChipTheme.lightChipTheme,
+    elevatedButtonTheme: BKElevatedButtonTheme.darBKElevatedButtonTheme,
+    outlinedButtonTheme: BKOutLinedButtonTheme.darBKOutLinedButtonTheme,
+    inputDecorationTheme: BKTextFormFieldTheme.darkInputDecorationTheme,
   );
 }
