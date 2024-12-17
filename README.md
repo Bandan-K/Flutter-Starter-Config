@@ -29,7 +29,7 @@ Here is an overview of the project's folder structure:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/kariMMeshal/Flutter-Starter-Config.git
+   git clone https://github.com/Bandan-K/Flutter-Starter-Config.git
    cd flutter-starter-config
 
 2. **Install dependencies**:
@@ -45,5 +45,5 @@ This project is open-source and available under the MIT License.
 
    
 ## Author
-**Created and maintained by -Kareem Meshal-**
+**Created and maintained by -Bandan Kumar-**
 **Feel free to reach out for any questions or suggestions.**
